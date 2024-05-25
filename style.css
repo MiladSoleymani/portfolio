@@ -176,7 +176,7 @@ section {
 .section__pic-container {
   display: flex;
   justify-content: center;
-  height: 301px;
+  height: 375px;
   width: 100%;
   margin: unset !important;
 }
@@ -318,7 +318,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   width: 50%;
   gap: 40px;
 }
@@ -374,10 +374,11 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  height: 375px;
 }
 
 .details_container_height {
-  height: calc(253px - 3rem);
+  height: calc(300px - 3rem);
 }
 
 .section-container {
